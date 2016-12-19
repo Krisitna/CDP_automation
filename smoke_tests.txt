@@ -1,0 +1,14 @@
+@smoke
+Feature: Desktop smoke tests
+
+
+  Scenario: I can register a new user and complete a JPMC card payment
+    Given   I register a new user
+    And     I proceed to checkout with a product
+    When    I proceed from delivery to thank_you with:
+      | payment_method | Card |
+    Then    I am able to see 'Thank you message' and 'Order Tracking' link on the 'thank you' page
+    When    I save the "OrderID" into global variable from the present order number on the 'thank you' page
+    Then    I Verify that the customer details have been passed to the OMS
+
+  
