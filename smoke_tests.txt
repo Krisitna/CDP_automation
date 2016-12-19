@@ -17,6 +17,10 @@ Scenario: I can use the search function and get results
     When    I search for "Saddle"
     Then    I should see the result for the "Saddle" site
 
-
+Scenario: I can add an address and card via My Account for a new account
+    Given   A Customer has gone to wiggle and created a new account
+    And     I create an address with the following parameters - "Smoke test" "United Kingdom" "4 test street" "" "Testville" "n6 5uh" "0123456789"
+    When    I go to the add card page and add the Visa UK card details
+    Then    I should see 1 saved cards on the 'cards details' page in my account
 
   
