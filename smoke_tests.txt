@@ -14,8 +14,8 @@ Feature: Desktop smoke tests
 
 Scenario: I can use the search function and get results
     Given   The homepage is loaded
-    When    I search for "Saddle"
-    Then    I should see the result for the "Saddle" site
+    When    I search for "Saddle" on the main page
+    Then    I should see the result for the "Saddle" site in a form of list with links to PDD page
 
 Scenario: I can add an address and card via My Account for a new account
     Given   A Customer has gone to wiggle and created a new account
