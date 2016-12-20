@@ -24,6 +24,15 @@ Scenario: I can add an address and card via My Account for a new account
     When    I go to the add card page and add the Visa UK card details
     Then    I should see 1 saved cards on the 'cards details' page in my account
 
+Scenario Outline: Customer should be able to enter voucher codes and then remove it (Test I.D. 10.3)
+    When    I add an expensive in stock product to my basket
+    And     I enter "<voucher_code>" in the text field and click on the apply voucher button
+    Then    I should see the following text: "The voucher code <voucher_code> has been successfully applied to your basket saving you"
+    And     I click on the remove voucher button on the basket page
+    Then    I should NOT see the following text: "Voucher Discount"
+  Examples:
+    |voucher_code|
+    |autotest2012|
 
 
   
