@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="=suite 1(failed)">
+    <groups>
+      <run>
+        <exclude name="failedMethods"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="UnitTest.sumTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="afterClass"/>
+          <include name="testSum" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- UnitTest.sumTest -->
+    </classes>
+  </test> <!-- =suite 1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
