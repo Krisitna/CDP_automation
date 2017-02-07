@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57915" started-at="2017-02-03T20:01:32Z" finished-at="2017-02-03T20:02:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57915" started-at="2017-02-03T20:01:32Z" finished-at="2017-02-03T20:02:30Z">
+      <class name="tests.GmailTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.GmailTest@cb644e]" name="beforeClass" is-config="true" duration-ms="8544" started-at="2017-02-03T23:01:32Z" finished-at="2017-02-03T23:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="sendLetter()[pri:0, instance:tests.GmailTest@cb644e]" name="sendLetter" duration-ms="49319" started-at="2017-02-03T23:01:41Z" description="Send letter" finished-at="2017-02-03T23:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendLetter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.GmailTest@cb644e]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-02-03T23:02:30Z" finished-at="2017-02-03T23:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.GmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
