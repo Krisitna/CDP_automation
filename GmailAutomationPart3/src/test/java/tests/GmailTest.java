@@ -12,7 +12,22 @@ public class GmailTest extends BaseTest {
 	private static final String SUBJECT = "test";
 	private static final String MESSAGE_TEXT = "Hello! This message was generated automatically.";
 
-	@Test(priority = 0)
+	
+    @BeforeTest
+	public void browserSetUpChrome() {
+		System.setProperty("webdriver.chrome.driver",
+				"../MailAutomation/chromedriver/chromedriver.exe");
+		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+		capabilities.setPlatform(Platform.WINDOWS);
+		try {
+			driver = new RemoteWebDriver(
+					new URL("http://localhost:4444/wd/hub"), capabilities);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+	}
+    
+    @Test(priority = 0)
 	public void login() {
 
 		Assert.assertTrue(loginPage.authorization(EMAIL, PASSWORD)

@@ -26,45 +26,6 @@ public class BaseTest {
 	protected SendPage sendPage;
 
 	
-	/*@BeforeClass
-	public void browserSetUpChrome() {
-		System.setProperty("webdriver.chrome.driver",
-				"../MailAutomation/chromedriver/chromedriver.exe");
-		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-		capabilities.setPlatform(Platform.WINDOWS);
-		try {
-			driver = new RemoteWebDriver(
-					new URL("http://localhost:4444/wd/hub"), capabilities);
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
-	}
-*/
-	
-	 /*@BeforeClass public void browserSetUpIE() {
-	 * System.setProperty("webdriver.ie.driver",
-	 * "../MailAutomation/ie/IEDriverServer.exe"); DesiredCapabilities
-	 * capabilities = DesiredCapabilities.internetExplorer();
-	 * capabilities.setPlatform(Platform.WINDOWS); try { driver = new
-	 * RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities); }
-	 * catch (MalformedURLException e) { e.printStackTrace(); } //driver = new
-	 * ChromeDriver(capabilities); }
-	 */
-
-	/*@BeforeClass
-	public void browserSetFF() {
-		System.setProperty("webdriver.gecko.driver",
-				"../MailAutomation/firefox/geckodriver.exe");
-		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-		capabilities.setPlatform(Platform.WINDOWS);
-		try {
-			driver = new RemoteWebDriver(
-					new URL("http://localhost:4444/wd/hub"), capabilities);
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}(dependsOnMethods = "browserSetFF")
-	}*/
-
 	@BeforeClass
 	public void beforeClass() {
 		driver.get(startURL);
