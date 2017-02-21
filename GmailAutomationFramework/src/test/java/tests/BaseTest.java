@@ -20,7 +20,8 @@ public class BaseTest {
 
 	@BeforeClass
 	public void prepare() throws Exception {
-		Driver.getWebDriverInstance().get(startURL);
+		driver = Driver.getWebDriverInstance();
+             driver.get(startURL);
 	}
 
 	@BeforeClass(dependsOnMethods = "prepare")
