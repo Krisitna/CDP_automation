@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="tests.GmailTest">
+        <methods>
+          <include name="createEmail"/>
+          <include name="beforeClass"/>
+          <include name="logout"/>
+          <include name="tearDown"/>
+          <include name="prepare"/>
+          <include name="login"/>
+          <include name="sendEmail"/>
+        </methods>
+      </class> <!-- tests.GmailTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
