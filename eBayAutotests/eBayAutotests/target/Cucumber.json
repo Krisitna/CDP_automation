@@ -1,0 +1,574 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "The customer will be able to add product to cart",
+        "description": "",
+        "id": "shopping-cart-functionality-feature;the-customer-will-be-able-to-add-product-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10620112393,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The homepage is loaded",
+            "match": {
+              "location": "BaseStepsDef.the_homepage_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5647957770,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I quick seacrch for \"5D Diamond Embroidery Painting Owl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5D Diamond Embroidery Painting Owl",
+                  "offset": 21
+                }
+              ],
+              "location": "BaseStepsDef.i_quick_seacrch_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35766102506,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the product link",
+            "match": {
+              "location": "BaseStepsDef.i_click_on_the_product_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5513481350,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I add the item to my cart",
+            "match": {
+              "location": "BaseStepsDef.i_add_the_item_to_my_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2864150948,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The added product is displayed in my cart",
+            "match": {
+              "location": "BaseStepsDef.the_added_product_is_displayed_in_my_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "The customer to be able to add several the same products to the cart",
+        "description": "",
+        "id": "shopping-cart-functionality-feature;the-customer-to-be-able-to-add-several-the-same-products-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7670659420,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The homepage is loaded",
+            "match": {
+              "location": "BaseStepsDef.the_homepage_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5686387167,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I quick seacrch for \"5D Diamond Embroidery Painting Owl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5D Diamond Embroidery Painting Owl",
+                  "offset": 21
+                }
+              ],
+              "location": "BaseStepsDef.i_quick_seacrch_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12415251404,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the product link",
+            "match": {
+              "location": "BaseStepsDef.i_click_on_the_product_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2006413182,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I set the quantity of item is 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 30
+                }
+              ],
+              "location": "BaseStepsDef.i_set_the_quantity_of_item_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2444467793,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I add the item to my cart",
+            "match": {
+              "location": "BaseStepsDef.i_add_the_item_to_my_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1955247633,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The quantity of product is 2 in my cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 27
+                }
+              ],
+              "location": "BaseStepsDef.the_quantity_of_product_is_in_my_cart(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "The customer to be able to remove product from the cart",
+        "description": "",
+        "id": "shopping-cart-functionality-feature;the-customer-to-be-able-to-remove-product-from-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8458181696,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The homepage is loaded",
+            "match": {
+              "location": "BaseStepsDef.the_homepage_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5174305459,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I quick seacrch for \"5D Diamond Embroidery Painting Owl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5D Diamond Embroidery Painting Owl",
+                  "offset": 21
+                }
+              ],
+              "location": "BaseStepsDef.i_quick_seacrch_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11954226667,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on the product link",
+            "match": {
+              "location": "BaseStepsDef.i_click_on_the_product_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4120474052,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add the item to my cart",
+            "match": {
+              "location": "BaseStepsDef.i_add_the_item_to_my_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1650782444,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the remove button on cart",
+            "match": {
+              "location": "BaseStepsDef.i_click_on_the_remove_button_on_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281006187,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The product is not displayed in my cart",
+            "match": {
+              "location": "BaseStepsDef.the_product_is_not_displayed_in_my_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Customer should be taken to previous listing page when he clicks Continue Shopping",
+        "description": "",
+        "id": "shopping-cart-functionality-feature;customer-should-be-taken-to-previous-listing-page-when-he-clicks-continue-shopping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7139563966,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The homepage is loaded",
+            "match": {
+              "location": "BaseStepsDef.the_homepage_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3709754876,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I quick seacrch for \"5D Diamond Embroidery Painting Owl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5D Diamond Embroidery Painting Owl",
+                  "offset": 21
+                }
+              ],
+              "location": "BaseStepsDef.i_quick_seacrch_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8402932821,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on the product link",
+            "match": {
+              "location": "BaseStepsDef.i_click_on_the_product_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2385110743,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I add the item to my cart",
+            "match": {
+              "location": "BaseStepsDef.i_add_the_item_to_my_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3934677048,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on the continue shopping button on the cart page",
+            "match": {
+              "location": "BaseStepsDef.i_click_on_the_continue_shopping_button_on_the_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4633606437,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "The previous listing page is dispplayed",
+            "match": {
+              "location": "BaseStepsDef.the_previous_listing_page_is_dispplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "Customer should be taken to product detailed page form the cart page",
+        "description": "",
+        "id": "shopping-cart-functionality-feature;customer-should-be-taken-to-product-detailed-page-form-the-cart-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5391991732,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The homepage is loaded",
+            "match": {
+              "location": "BaseStepsDef.the_homepage_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3024581525,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I quick seacrch for \"5D Diamond Embroidery Painting Owl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5D Diamond Embroidery Painting Owl",
+                  "offset": 21
+                }
+              ],
+              "location": "BaseStepsDef.i_quick_seacrch_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5490067183,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on the product link",
+            "match": {
+              "location": "BaseStepsDef.i_click_on_the_product_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2531088971,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I add the item to my cart",
+            "match": {
+              "location": "BaseStepsDef.i_add_the_item_to_my_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4861858904,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on \"product image\" on the cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "product image",
+                  "offset": 12
+                }
+              ],
+              "location": "BaseStepsDef.i_click_on_on_the_cart_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5754869714,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "The product detailed page is displayed",
+            "match": {
+              "location": "BaseStepsDef.the_product_detailed_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Customer should be taken to product detailed page form the cart page",
+        "description": "",
+        "id": "shopping-cart-functionality-feature;customer-should-be-taken-to-product-detailed-page-form-the-cart-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4504312639,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The homepage is loaded",
+            "match": {
+              "location": "BaseStepsDef.the_homepage_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5235222590,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I quick seacrch for \"5D Diamond Embroidery Painting Owl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5D Diamond Embroidery Painting Owl",
+                  "offset": 21
+                }
+              ],
+              "location": "BaseStepsDef.i_quick_seacrch_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8255934706,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on the product link",
+            "match": {
+              "location": "BaseStepsDef.i_click_on_the_product_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3541642200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I add the item to my cart",
+            "match": {
+              "location": "BaseStepsDef.i_add_the_item_to_my_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5915757836,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on \"product name\" on the cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "product name",
+                  "offset": 12
+                }
+              ],
+              "location": "BaseStepsDef.i_click_on_on_the_cart_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3133512713,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "The product detailed page is displayed",
+            "match": {
+              "location": "BaseStepsDef.the_product_detailed_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping Cart Functionality Feature",
+    "description": "",
+    "id": "shopping-cart-functionality-feature",
+    "keyword": "Feature",
+    "uri": "cart/Basket.feature"
+  }
+]e": 40,
+            "name": "The product detailed page is displayed",
+            "match": {
+              "location": "BaseStepsDef.the_product_detailed_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping Cart Functionality Feature",
+    "description": "",
+    "id": "shopping-cart-functionality-feature",
+    "keyword": "Feature",
+    "uri": "cart/Basket.feature"
+  }
+]
